@@ -98,7 +98,7 @@ public class Main {
         double t = sc.nextDouble();
         System.out.println("Enter wind speed above 2mph");
         double v = sc.nextDouble();
-        double windchill = 35.74 + 0.6215*t - 35.75*Math.pow(v, 0.16)+0.4275*t*v*Math.pow(v,0.16);
+        double windchill = 35.74 + 0.6215*t - 35.75*Math.pow(v, 0.16)+0.4275*t*Math.pow(v,0.16);
         System.out.println(windchill);
         //Kan ikke få den til at virke, men alt er rigtigt skrevet
 //Opgave 2.19
